@@ -38,7 +38,7 @@
 
 <body class="font-poppins">
 
-    <header class="bg-gray-400 py-1 mb-4">
+    <header class="bg-gray-300 py-1 mb-4">
 
         <div class="navbar container mx-auto">
 
@@ -86,14 +86,158 @@
                 <div class="w-2/4">
 
                     <h1 class="text-5xl font-bold">Lets Travel</h1>
-                    <p class="py-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum expedita quae eum temporibus tenetur porro commodi doloribus omnis explicabo vero?</p>
+                    <p class="py-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum expedita quae eum
+                        temporibus tenetur porro commodi doloribus omnis explicabo vero?</p>
                     <h4 class="text-3xl font-bold">Total Budget: 900 $</h4>
 
                 </div>
 
-                <div class="w-2/4"><img class="w-full" src="images/banner.png" class=""/></div>              
+                <div class="w-2/4"><img class="w-full" src="images/banner.png" class="" /></div>
 
             </div>
+
+        </section>
+
+        <section id="last-section" class="container mx-auto my-12">
+
+            <!-- main div  -->
+            <div class="flex justify-between items-start gap-x-12">
+
+                <!-- item-01  -->
+                <div class="grid grid-cols-2 gap-5">
+
+                    <!-- item 01 sub div 01 -->
+                    <div class="flex justify-between items-start p-4 border-gray-300 drop-shadow-xl gap-6 border">
+
+                        <!-- image div  -->
+                        <div>
+
+                            <img class="w-40 h-28 rounded-lg" src="images/shajek.jpg" alt="...Loading">
+
+                        </div>
+
+                        <!-- content div  -->
+                        <div>
+
+                            <h4 class="font-bold text-2xl">Shajek</h4>
+
+                            <h6 class="font-bold text-base">Cost: 300 $</h6>
+
+                            <button class="btn btn-active cart-button">Add to Cart</button>
+
+                        </div>
+
+                    </div>
+
+                    <!-- item 01 sub div 02 -->
+                    <div class="flex justify-between items-start p-4 border-gray-300 drop-shadow-xl gap-6 border">
+
+                        <!-- image div  -->
+                        <div>
+
+                            <img class="w-40 h-28 rounded-lg" src="images/Dhaka.jpg" alt="...Loading">
+
+                        </div>
+
+                        <!-- content div  -->
+
+                        <div>
+
+                            <h4 class="font-bold text-2xl">Dhaka</h4>
+
+                            <h6 class="font-bold text-base">Cost: 300 $</h6>
+
+                            <button class="btn btn-active cart-button">Add to Cart</button>
+
+                        </div>
+
+
+                    </div>
+
+                    <!-- item 01 sub div 03 -->
+                    <div class="flex justify-between items-start p-4 border-gray-300 drop-shadow-xl gap-6 border">
+
+                        <!-- image div  -->
+                        <div>
+
+                            <img class="w-40 h-28 rounded-lg" src="images/shundar-ban.jpg" alt="...Loading">
+
+                        </div>
+
+                        <!-- content div  -->
+                        <div>
+
+                            <h4 class="font-bold text-2xl">Khulna</h4>
+
+                            <h6 class="font-bold text-base">Cost: 500 $</h6>
+
+                            <button class="btn btn-active cart-button">Add to Cart</button>
+
+                        </div>
+
+                    </div>
+
+                    <!-- item 01 sub div 04 -->
+                    <div class="flex justify-between items-start p-4 border-gray-300 drop-shadow-xl gap-6 border">
+
+                        <!-- image div  -->
+                        <div>
+
+                            <img class="w-40 h-[135px] rounded-lg" src="images/coxBazar.jpg" alt="...Loading">
+
+                        </div>
+
+                        <!-- content div  -->
+                        <div>
+
+                            <h4 class="font-bold text-2xl">Cox's <br> Bazar</h4>
+
+                            <h6 class="font-bold text-base">Cost: 500 $</h6>
+
+                            <button class="btn btn-active cart-button">Add to Cart</button>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <!-- item - 02 -->
+                <div class="flex-1">
+
+                    <!-- content 01  -->
+                    <div class="text-center">
+
+                        <h4 class="font-bold text-2xl mb-2">Cart</h4>
+
+                        <ul id="total-cost-item" class="border-2 border-gray-300 p-2 border-dashed font-bold text-base">
+
+                        </ul>
+
+                        <h4 class="font-bold text-base my-2">Total cost: <span id="total-cost">0</span> $</h4>
+
+                    </div>
+
+                    <!-- content 02  -->
+                    <div class="my-6 flex justify-center gap-x-4">
+
+                        <button id="bus100" class="btn btn-active">Bus +100</button>
+                        <button id="train200" class="btn btn-active">Train -200</button>
+                        <button id="flight500" class="btn btn-active">Flight +500</button>
+
+                    </div>
+
+                    <!-- content 03  -->
+                    <div class="text-center border-t border-gray-300 my-2">
+
+                        <h4 class="font-bold text-2xl mt-2">Grand Total : <span id="grand-total">0</span> $</h4>
+
+                    </div>
+
+                </div>
+
+            </div>
+
 
         </section>
 
